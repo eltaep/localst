@@ -1,0 +1,63 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body {
+    background-color: #222;
+    color: white;
+}
+
+.allcontent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.box {
+    padding: 10px;
+    background-color: rgb(222, 165, 58);
+    width: calc(100%/4);
+    display: inherit;
+    align-items: inherit;
+    justify-content: inherit;
+    font-size: 28px;
+    cursor: pointer;
+    opacity: .7;
+    transition: all .6s;
+
+
+}
+
+body {
+    min-height: 100vh;
+    background-color: #bf5050;
+}
+
+.box:hover {
+    opacity: 1;
+    background-color: rgb(182, 189, 197);
+
+}
+
+.box:nth-child(1) {
+    color: red;
+
+}
+
+.box:nth-child(2) {
+    color: yellow;
+}
+
+.box:nth-child(3) {
+    color: blue;
+}
+
+.box:nth-child(4) {
+    color: gray;
+}
